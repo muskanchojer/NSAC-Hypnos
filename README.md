@@ -1,5 +1,5 @@
 # NSAC-Hypnos
-def_sleeptime(n):
+def sleeptime(n):
         """Enter in 24 hours format"""
         print("Day T minus ", n)
         print("When you get to bed today?")
