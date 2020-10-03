@@ -17,4 +17,4 @@ def sleeptime(n):
         wake=datetime(whh,wmm,00)
         n=n-1
         sleeptime=wake-sleep
-        print("your sleep time is", wake.total_seconds()/60**2, "hours", wake.total_seconds()/60, "minutes")
+        print("your sleep time is", sleep.total_seconds()/60**2, "hours", sleep.total_seconds()/60, "minutes")
