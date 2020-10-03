@@ -1,0 +1,43 @@
+import datetime
+def itenary():
+    launch_datetime():
+        year = int(input('Enter a year'))
+        month = int(input('Enter a month'))
+        day = int(input('Enter a day'))
+        date = datetime.date(year, month, day)
+        hour=int(input('enter the launch hour'))
+        minutes=int(input('enter the minutes'))
+        seconds=int(input('enter the seconds'))
+        time=datetime.time(hour,minutes,seconds)
+    landing_datetime():
+        year = int(input('Enter a year'))
+        month = int(input('Enter a month'))
+        day = int(input('Enter a day'))
+        date = datetime.date(year, month, day)
+        hour=int(input('enter the launch hour'))
+        minutes=int(input('enter the minutes'))
+        seconds=int(input('enter the seconds'))
+        time=datetime.time(hour,minutes,seconds)
+    docking_datetime():
+        year = int(input('Enter a year'))
+        month = int(input('Enter a month'))
+        day = int(input('Enter a day'))
+        date = datetime.date(year, month, day)
+        hour=int(input('enter the launch hour'))
+        minutes=int(input('enter the minutes'))
+        seconds=int(input('enter the seconds'))
+        time=datetime.time(hour,minutes,seconds)
+     undocking_datetime():
+        year = int(input('Enter a year'))
+        month = int(input('Enter a month'))
+        day = int(input('Enter a day'))
+        date = datetime.date(year, month, day)
+        hour=int(input('enter the launch hour'))
+        minutes=int(input('enter the minutes'))
+        seconds=int(input('enter the seconds'))
+        time=datetime.time(hour,minutes,seconds)
+def crewmembernutrition schedule():
+    n=int(input('enter the no of meals in a day'))
+    i=0
+    while(i<n):
+        time
