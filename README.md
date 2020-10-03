@@ -12,4 +12,4 @@ def_sleeptime(n):
         input(int(whh))
         print("approx MM")
         input(int(wmm))
-        
+        n=n-1
