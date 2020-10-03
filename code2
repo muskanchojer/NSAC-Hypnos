@@ -1,0 +1,11 @@
+def medics():
+    t=input('do you have any major disease')
+    if(t=='yes' or 'YES'):
+        name=input('input the name of the disease")
+        medication=input('input the name of the medication required')
+        m=int(input('enter the no of times medication is taken')
+        for s in (1,m+1):
+              time=input(datetime.time('enter the time when the medicines are to be taken')
+    if(t=='no' or 'NO'):
+        break                 
+                   
