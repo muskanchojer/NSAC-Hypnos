@@ -8,13 +8,13 @@ def sleeptime(n):
         shh=int(input())
         print("approx MM")
         smm=int(input())
-        sleep=datetime(shh,smm,00)
+        sleep=datetime.time(shh,smm,00)
         print("when did you wake up?"
         print("HH")
         whh=int(input())
         print("approx MM")
         wmm=int(input())
-        wake=datetime(whh,wmm,00)
+        wake=datetime.time(whh,wmm,00)
         n=n-1
         sleeptime=wake-sleep
         print("your sleep time is", sleep.total_seconds()/60**2, "hours", sleep.total_seconds()/60, "minutes")
